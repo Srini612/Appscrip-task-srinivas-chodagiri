@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# Appscrip Product Listing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🔗 Live Demo
+**Deployed Site:** [https://your-app-name.netlify.app](https://your-app-name.netlify.app)
 
-## Available Scripts
+## 📋 Project Overview
+A fully functional Product Listing Page built with React.js, featuring:
+- Responsive design (Desktop, Tablet, Mobile)
+- Product filtering and sorting
+- Integration with FakeStore API
+- SEO optimized with meta tags and structured data
+- Clean, minimal code with best practices
 
-In the project directory, you can run:
+## 🛠️ Technologies Used
+- **React.js** - Frontend framework
+- **Axios** - API calls
+- **React Helmet** - SEO meta tags
+- **CSS3** - Styling (no external CSS frameworks)
+- **FakeStore API** - Product data
 
-### `npm start`
+## 🚀 Features
+- ✅ Responsive layout (mobile-first design)
+- ✅ Filter sidebar with multiple categories
+- ✅ Price range filtering
+- ✅ Product sorting (Recommended, Newest, Popular, Price)
+- ✅ Dynamic product grid
+- ✅ Wishlist functionality
+- ✅ SEO optimized
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📦 Installation & Setup
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
 
-### `npm test`
+### Steps to Run Locally
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/Appscrip-task-YourName.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Navigate to project directory
+cd Appscrip-task-YourName
 
-### `npm run build`
+# Install dependencies
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Start development server
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The app will run on `http://localhost:3000`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🏗️ Build for Production
+```bash
+npm run build
+```
 
-### `npm run eject`
+## 📁 Project Structure
+```
+src/
+├── components/
+│   ├── Header.js
+│   ├── Header.css
+│   ├── HeroSection.js
+│   ├── HeroSection.css
+│   ├── FilterSidebar.js
+│   ├── FilterSidebar.css
+│   ├── ProductGrid.js
+│   ├── ProductGrid.css
+│   ├── ProductCard.js
+│   ├── ProductCard.css
+│   ├── Footer.js
+│   └── Footer.css
+├── App.js
+├── App.css
+└── index.css
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🎨 Design Reference
+Figma Design: [Link to Figma](https://www.figma.com/file/N0Tv7yYLf3kfMLQjUncUlx/Design-Task---PLP)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📱 Responsive Breakpoints
+- Desktop: > 768px
+- Tablet: 768px - 480px
+- Mobile: < 480px
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🧪 Testing
+- Tested on Chrome, Firefox, Safari
+- Mobile responsiveness verified using Chrome DevTools
+- API integration tested with FakeStore API
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 👤 Author
+**Your Name**
+- GitHub: [@yourusername](https://github.com/yourusername)
+- Email: your.email@example.com
 
-## Learn More
+## 📄 License
+This project is created as part of Appscrip assignment.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🙏 Acknowledgments
+- FakeStore API for product data
+- Figma design provided by Appscrip
