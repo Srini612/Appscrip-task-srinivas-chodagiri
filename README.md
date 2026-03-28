@@ -93,8 +93,8 @@ Figma Design: [Link to Figma](https://www.figma.com/file/N0Tv7yYLf3kfMLQjUncUlx/
 
 ## 👤 Author
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub:https://github.com/Srini612
+- Email: chodagirisrinivas2@gmail.com
 
 ## 📄 License
 This project is created as part of Appscrip assignment.
