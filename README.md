@@ -1,7 +1,9 @@
 # Appscrip Product Listing Page
 
 ## 🔗 Live Demo
-**Deployed Site:** [https://your-app-name.netlify.app](https://your-app-name.netlify.app)
+**Deployed Site:**  https://appscrip-srinivas-plp.netlify.app/
+
+**GitHub Repository:** https://github.com/Srini612/Appscrip-task-srinivas-chodagiri
 
 ## 📋 Project Overview
 A fully functional Product Listing Page built with React.js, featuring:
