@@ -1,0 +1,125 @@
+.product-card {
+  background: var(--primary-white);
+  border-radius: 4px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.product-image-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-image {
+  transform: scale(1.05);
+}
+
+.product-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background-color: var(--primary-white);
+  color: var(--primary-black);
+  font-size: 10px;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-radius: 2px;
+  letter-spacing: 0.5px;
+}
+
+.product-badge.out-of-stock {
+  background-color: #fef3f2;
+  color: #d92d20;
+}
+
+.product-info {
+  padding: 16px;
+}
+
+.product-title {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  line-height: 1.4;
+  min-height: 40px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.product-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 12px;
+}
+
+.product-price-section {
+  flex: 1;
+}
+
+.product-signin {
+  font-size: 12px;
+  color: var(--text-gray);
+  line-height: 1.5;
+}
+
+.product-signin a {
+  color: var(--primary-black);
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.product-signin a:hover {
+  color: var(--text-gray);
+}
+
+.wishlist-btn {
+  background: none;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.wishlist-btn:hover {
+  transform: scale(1.1);
+}
+
+.wishlist-btn.active {
+  color: var(--accent-red);
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .product-info {
+    padding: 12px;
+  }
+
+  .product-title {
+    font-size: 12px;
+    min-height: 36px;
+  }
+
+  .product-signin {
+    font-size: 11px;
+  }
+}

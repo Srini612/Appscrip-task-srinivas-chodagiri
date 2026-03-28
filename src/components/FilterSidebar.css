@@ -1,0 +1,144 @@
+.filter-sidebar {
+  width: 280px;
+  min-width: 280px;
+  border-right: 1px solid var(--border-gray);
+  padding: 20px;
+  transition: all 0.3s ease;
+  overflow-y: auto;
+  max-height: calc(100vh - 200px);
+}
+
+/* When hidden on desktop */
+.filter-sidebar.hidden {
+  width: 0;
+  min-width: 0;
+  padding: 0;
+  border-right: none;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.filter-sidebar.visible {
+  width: 280px;
+  min-width: 280px;
+  padding: 20px;
+  opacity: 1;
+}
+
+.filter-section {
+  margin-bottom: 20px;
+}
+
+.customizable-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.customizable-checkbox input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.filter-divider {
+  height: 1px;
+  background-color: var(--border-gray);
+  margin: 20px 0;
+}
+
+.filter-group {
+  margin-bottom: 16px;
+}
+
+.filter-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  border: none;
+  padding: 12px 0;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  letter-spacing: 0.5px;
+}
+
+.filter-header .arrow {
+  transition: transform 0.3s;
+}
+
+.filter-header .arrow.expanded {
+  transform: rotate(180deg);
+}
+
+.filter-label {
+  font-size: 14px;
+  color: var(--text-gray);
+  margin-top: 8px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.filter-options {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.filter-option input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+/* Mobile and Tablet Responsiveness */
+@media (max-width: 768px) {
+  .filter-sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: var(--primary-white);
+    z-index: 1000;
+    width: 280px;
+    min-width: 280px;
+    max-height: 100vh;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .filter-sidebar.hidden {
+    transform: translateX(-100%);
+    width: 280px;
+    opacity: 1;
+  }
+
+  .filter-sidebar.visible {
+    transform: translateX(0);
+  }
+}
+
+/* Very small screens */
+@media (max-width: 480px) {
+  .filter-sidebar {
+    width: 260px;
+    min-width: 260px;
+  }
+  
+  .filter-sidebar.hidden {
+    width: 260px;
+  }
+}
