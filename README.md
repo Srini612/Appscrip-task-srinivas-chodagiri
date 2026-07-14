@@ -98,7 +98,6 @@ Figma Design: [Link to Figma](https://www.figma.com/file/N0Tv7yYLf3kfMLQjUncUlx/
 
 ## 📄 License
 This project is created as part of Appscrip assignment.
-
 ## 🙏 Acknowledgments
 - FakeStore API for product data
 - Figma design provided by Appscrip
